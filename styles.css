@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+    padding: 15px;
+}
+
+
+.container h1 {
+    margin-bottom: 45px;
+}
+header h1{
+    margin: 0;
+}
+
+div.ig-post h2, div.ig-post p{
+    padding: 15px;
+    margin: 0;
+}
+
+div.ig-post {
+    background: white;
+    margin-top: 10px;
+}
+
+div.ig-post .header-post div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+
+div.ig-post .header-post div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    padding: 10px;
+    color: gray;
+}
+
+div.container{
+    width: 600px;
+    margin: auto;
+}
+
+div.ig-post img {
+    width: 100%;
+}
